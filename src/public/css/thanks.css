@@ -1,0 +1,51 @@
+* {
+    font-family: Cambria, "游ゴシック", sans-serif;
+    color: #8b7679;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.back-thanks {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    font-size: 18vw;
+    color: rgba(139, 121, 105, 0.05);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front-thanks {
+    display: inline-block;
+    position: absolute;
+    font-size: 2vw;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-button {
+    display: inline-block;
+    position: absolute;
+    font-size: 1.5vw;
+    font-weight: bold;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-button a {
+    text-decoration: none;
+    background-color: #82756a;
+    color: #ffffff;
+    padding: 10px 30px;
+}

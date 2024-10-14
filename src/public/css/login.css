@@ -1,0 +1,113 @@
+* {
+    font-family: Cambria, "游ゴシック", sans-serif;
+    color: #8b7679;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    border: 1px solid #e0dfde;
+}
+
+.header__inner {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    max-width: 1230px;
+    height: 70px;
+}
+
+.header__ttl {
+    grid-column: 2;
+    margin: auto;
+    font-weight: normal;
+}
+
+.header__nav {
+    grid-column: 3;
+    margin: auto 30px auto auto;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item a {
+    padding: 5px 20px;
+    background-color: #f6f6f6;
+    color: #d9c6b5;
+    border: 1px solid #d9c6b5;
+}
+
+main {
+    background-color: #f1ece7;
+    height: 85vh;
+}
+
+.section__content {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 15px 30px;
+}
+
+.section__ttl {
+    width: 85%;
+}
+
+.section__ttl {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section__ttl h2 {
+    font-weight: normal;
+}
+
+.login-container {
+    width: 50%;
+    background-color: #ffffff;
+    border: 1px solid #c5b9b0;
+    margin: 0 auto;
+    min-width: 400px;
+    padding: 30px;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.login-form__item {
+    margin: 20px auto;
+    padding: 0 20%;
+}
+
+.login-form__item-ttl {
+    margin-bottom: 5px;
+}
+
+.login-form__item-input {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border: none;
+}
+
+.login-form__button {
+    width: 100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.login-form__button-submit {
+    width: 100%;
+    padding: 5px;
+    background-color: #8b7679;
+    color: #ffffff;
+    border: none;
+}
+
+.login-form__error-msg {
+    color: red;
+}
